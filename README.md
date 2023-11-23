@@ -4,7 +4,7 @@ Este repositorio sirve como un espacio para practicar y mejorar tus habilidades 
 
 ## Contenido
 
-- **Ejercicios**: Carpeta que contiene desafíos y ejercicios para mejorar mis habilidades de codificación con HTML y JavaScript.
+- **Ejercicios**: Carpetas que contiene desafíos y ejercicios para mejorar mis habilidades de codificación con HTML y JavaScript.
 
 ## Cómo Usar
 
