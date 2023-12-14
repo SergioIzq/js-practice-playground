@@ -1,0 +1,16 @@
+{
+  "name": "activity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "activity.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Izquierdo",
+  "license": "MIT",
+  "devDependencies": {
+    "connect": "^3.7.0",
+    "cypress": "^13.6.1",
+    "serve-static": "^1.15.0"
+  }
+}

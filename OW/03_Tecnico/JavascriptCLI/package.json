@@ -1,0 +1,17 @@
+{
+  "name": "javascriptcli",
+  "version": "1.0.0-alpha",
+  "description": "Proyecto de la codeKata 5 de la formación Javascript: técnico.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Izquierdo",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  }
+}

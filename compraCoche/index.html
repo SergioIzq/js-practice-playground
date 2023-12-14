@@ -1,0 +1,43 @@
+<!-- HTML -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Compra de Coche</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="row justify-content-evenly">
+            <!-- Tarjeta única para coches -->
+            <div class="col-md-3 mb-4 p-5">
+                <div class="card mb-4 p-5" style="max-width: 540px;">
+                    <img id="cocheImagen" src="img/coche_blanco.jpg" class="img-fluid rounded-start" alt="Coche">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Coche</h5>
+                        <p id="descripcionTexto" class="card-text">Descripción: Coche blanco elegante y moderno.</p>
+                        <p id="precioTexto" class="card-text"><small class="text-muted">Precio: $25000</small></p>
+                        <select id="colorSelect" class="form-select form-select-md mb-3" onchange="cambiarImagen()">
+                            <option selected disabled>Elije el color</option>
+                            <option value="blanco">Blanco</option>
+                            <option value="azul">Azul</option>
+                            <option value="verde">Verde</option>
+                        </select>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin de la tarjeta única -->
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>   
+</body>
+
+</html>
