@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkproyectomvp=self.webpackChunkproyectomvp||[]).push([[397],{683:(t,e,s)=>{s.d(e,{Z:()=>c});const c=class{async fetchFile(t){let e=await fetch(t);return await e.text()}}},397:(t,e,s)=>{s.r(e),s.d(e,{Test:()=>a});var c=s(683);class a extends c.Z{#t="components/test/test.html";render(){return this.fetchFile(this.#t)}}}}]);

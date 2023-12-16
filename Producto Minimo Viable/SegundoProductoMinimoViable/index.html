@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="dist/app.bundle.js"></script>
+    <title>Todos App</title>
+    <style>
+        @font-face {
+            font-family: 'Space Grotesk';
+            src: url('https://fonts.gstatic.com/s/spacegrotesk/v15/V8mDojQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2');
+        }
+
+        html {
+            background-color: #101828;
+            color: #f63d68;
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-evenly;
+            align-items: stretch;
+            align-content: stretch;
+            font-family: "Space Grotesk", sans-serif;
+        }
+
+        body>div {
+            align-self: center;
+        }
+
+        body>div.content {
+            border: 1px solid #4c5463;
+            box-shadow: 0px 0px 10px #f63d68;
+            border-radius: 0.5em;
+            padding: 2em;
+            width: 70%;
+        }
+
+        body a {
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+        }
+
+        body a.nav {
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+            background-color: #f63d68;
+            color: white;
+            padding: .7em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Todo's App</h1>
+    </div>
+    <div class="content"><p>PlaceHolder for content</p></div>
+</body>
+
+</html>

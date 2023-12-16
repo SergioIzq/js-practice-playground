@@ -1,0 +1,11 @@
+<style>
+    div.user{display: flex; flex-flow: row nowrap;justify-content: flex-end;align-items: center;}
+    div.user span{margin-right: 1em;}
+    div.tasks.list{display: grid;gap: 50px 50px;grid-template-columns: auto 1.5em 1.5em;margin-top: 5em;}
+</style>
+<div class="user">
+    <span class="name">{name}</span>
+    <a href="/logout" class="nav">Logout</a>
+</div>
+<a href="/add_task" class="nav">New task</a>
+<div class="tasks list">{tasks}</div> 
